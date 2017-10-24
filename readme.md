@@ -22,7 +22,7 @@ CREATE DATABASE <databaseName>
 ~~~
 ### To use database  
 ~~~sql
-USE <databaseNamea>
+USE <databaseName>
 ~~~
 
 ### to create a table
@@ -75,11 +75,15 @@ drop database <databaseName>
 drop table <tableName>
 ~~~
 
-### Backup 
-mysqldump -p -u root <databaseName> > <fileLocationToBackup>
-
 ### rename table name
 ~~~sql
 ALTER <tableName> rename to <newTableName>
 ~~~
+
+### Backup 
+When you backup sql you have to go out of mysql console
+~~~
+mysqldump -p -u root <databaseName> > <fileLocationToBackup>
+~~~
+
 
