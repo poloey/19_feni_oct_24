@@ -11,6 +11,11 @@ mysql -u root -p
 winpty mysql -u root -p
 ~~~
 
+### to show databases
+~~~sql
+SHOW DATABASES;
+~~~
+
 ### to show tables
 ~~~sql
 SHOW TABLES;
